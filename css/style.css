@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: 'Nunito', sans-serif;
   background-color: #0f0e17;
+  color: white;
+  padding-top: 2em;
 }
 
 .float-left {
@@ -18,25 +19,46 @@ body {
 
 h1 {
   font-weight: 800;
-  color: #e4306f
-  
+  color: #e4306f;
+
+  margin-bottom: 2em;
+}
+h2 {
+  color: #e4306f;
 }
 
 
 .container {
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
+main {
+  margin-bottom: 2em;
+}
+
 .col {
-  background-color: #ffffff20;
-  border: 1px solid black;
-  /* debug */
-  
   width: 33%;
 
   text-align: center;
 
+  padding: 0 10px;
+}
+
+.col img {
+  height: 145px
+}
+
+.col h3 {
+  color: #ff8905;
+  text-align-last: center;
+  font-weight: 800;
+}
+
+.col p {
+  text-align: justify;
+  text-align-last: center;
+  /* text-align-initial: center; */
 }
 
 .clearfix::after {
