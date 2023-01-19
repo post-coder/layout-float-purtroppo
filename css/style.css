@@ -9,6 +9,13 @@ body {
   background-color: #0f0e17;
 }
 
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
 h1 {
   font-weight: 800;
   color: #e4306f
@@ -19,4 +26,21 @@ h1 {
 .container {
   width: 800px;
   margin: 0 auto;
+}
+
+.col {
+  background-color: #ffffff20;
+  border: 1px solid black;
+  /* debug */
+  
+  width: 33%;
+
+  text-align: center;
+
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
